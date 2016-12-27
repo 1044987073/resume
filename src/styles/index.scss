@@ -483,8 +483,13 @@ body {
     margin-top: 10px;
     width: 80%;
 }
+#scroller .xiangmu li img{
+    width: 200px;
+    height: 150px;
+}
 .xiangmu li p {
     margin-top: 10px;
+    overflow: hidden;
 }
 #scroller .xiangmu li:nth-child(2) {
     background: white url('../images/tree.png') no-repeat;
